@@ -17,6 +17,6 @@ public class HelloResource {
     @Path("/name/{name}")
     @Produces(MediaType.TEXT_PLAIN)
     public String sayHello(@PathParam("name") String name){
-        return "你好 " + name;
+        return "hello " + name;
     }
 }
